@@ -212,12 +212,12 @@ figure.gallery-group .gallery-group-name {
 }
 .fontawesomeIcon,
 hr:before,
-#article-container.post-content h1:before,
-#article-container.post-content h2:before,
-#article-container.post-content h3:before,
-#article-container.post-content h4:before,
-#article-container.post-content h5:before,
-#article-container.post-content h6:before,
+#article-container h1:before,
+#article-container h2:before,
+#article-container h3:before,
+#article-container h4:before,
+#article-container h5:before,
+#article-container h6:before,
 #post .post-copyright:before,
 #post .post-outdate-notice:before,
 .note:not(.no-icon)::before {
@@ -4558,44 +4558,24 @@ blockquote footer cite:before {
   font-family: Monaco, 'Ubuntu Mono', monospace;
   line-height: 1em;
 }
-#article-container ol,
-#article-container ul {
-  margin-top: 0.4rem;
-}
-#article-container ol p,
-#article-container ul p {
-  margin: 0 0 0.5rem;
-}
-#article-container ol ol,
-#article-container ul ol,
-#article-container ol ul,
-#article-container ul ul {
-  padding-left: 0.5rem;
-}
-#article-container ol li,
-#article-container ul li {
-  position: relative;
-  margin: 0.3rem 0;
-  padding-left: 0.3rem;
-}
-#article-container.post-content h1,
-#article-container.post-content h2,
-#article-container.post-content h3,
-#article-container.post-content h4,
-#article-container.post-content h5,
-#article-container.post-content h6 {
+#article-container h1,
+#article-container h2,
+#article-container h3,
+#article-container h4,
+#article-container h5,
+#article-container h6 {
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-#article-container.post-content h1:before,
-#article-container.post-content h2:before,
-#article-container.post-content h3:before,
-#article-container.post-content h4:before,
-#article-container.post-content h5:before,
-#article-container.post-content h6:before {
+#article-container h1:before,
+#article-container h2:before,
+#article-container h3:before,
+#article-container h4:before,
+#article-container h5:before,
+#article-container h6:before {
   position: absolute;
   top: calc(50% - 0.35rem);
   color: #f47466;
@@ -4607,138 +4587,138 @@ blockquote footer cite:before {
   -ms-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-#article-container.post-content h1:hover:before,
-#article-container.post-content h2:hover:before,
-#article-container.post-content h3:hover:before,
-#article-container.post-content h4:hover:before,
-#article-container.post-content h5:hover:before,
-#article-container.post-content h6:hover:before {
+#article-container h1:hover:before,
+#article-container h2:hover:before,
+#article-container h3:hover:before,
+#article-container h4:hover:before,
+#article-container h5:hover:before,
+#article-container h6:hover:before {
   color: #49b1f5;
 }
-#article-container.post-content h1 {
+#article-container h1 {
   padding-left: 1.4rem;
 }
-#article-container.post-content h1 code {
+#article-container h1 code {
   font-size: 1rem;
 }
-#article-container.post-content h1:before {
+#article-container h1:before {
   margin-left: -1.2rem;
   font-size: 1rem;
 }
-#article-container.post-content h1:hover {
+#article-container h1:hover {
   padding-left: 1.6rem;
 }
-#article-container.post-content h2 {
+#article-container h2 {
   padding-left: 1.3rem;
 }
-#article-container.post-content h2 code {
+#article-container h2 code {
   font-size: 0.9rem;
 }
-#article-container.post-content h2:before {
+#article-container h2:before {
   margin-left: -1.1rem;
   font-size: 0.9rem;
 }
-#article-container.post-content h2:hover {
+#article-container h2:hover {
   padding-left: 1.5rem;
 }
-#article-container.post-content h3 {
+#article-container h3 {
   padding-left: 1.2rem;
 }
-#article-container.post-content h3 code {
+#article-container h3 code {
   font-size: 0.8rem;
 }
-#article-container.post-content h3:before {
+#article-container h3:before {
   margin-left: -1rem;
   font-size: 0.8rem;
 }
-#article-container.post-content h3:hover {
+#article-container h3:hover {
   padding-left: 1.4rem;
 }
-#article-container.post-content h4 {
+#article-container h4 {
   padding-left: 1.1rem;
 }
-#article-container.post-content h4 code {
+#article-container h4 code {
   font-size: 0.7rem;
 }
-#article-container.post-content h4:before {
+#article-container h4:before {
   margin-left: -0.9rem;
   font-size: 0.7rem;
 }
-#article-container.post-content h4:hover {
+#article-container h4:hover {
   padding-left: 1.3rem;
 }
-#article-container.post-content h5 {
+#article-container h5 {
   padding-left: 1rem;
 }
-#article-container.post-content h5 code {
+#article-container h5 code {
   font-size: 0.6rem;
 }
-#article-container.post-content h5:before {
+#article-container h5:before {
   margin-left: -0.8rem;
   font-size: 0.6rem;
 }
-#article-container.post-content h5:hover {
+#article-container h5:hover {
   padding-left: 1.2rem;
 }
-#article-container.post-content h6 {
+#article-container h6 {
   padding-left: 1rem;
 }
-#article-container.post-content h6 code {
+#article-container h6 code {
   font-size: 0.6rem;
 }
-#article-container.post-content h6:before {
+#article-container h6:before {
   margin-left: -0.8rem;
   font-size: 0.6rem;
 }
-#article-container.post-content h6:hover {
+#article-container h6:hover {
   padding-left: 1.2rem;
 }
-#article-container.post-content ol,
-#article-container.post-content ul {
+#article-container ol,
+#article-container ul {
   margin-top: 0.4rem;
   padding: 0 0 0 0.8rem;
   list-style: none;
   counter-reset: li;
 }
 @media screen and (max-width: 768px) {
-  #article-container.post-content ol,
-  #article-container.post-content ul {
+  #article-container ol,
+  #article-container ul {
     padding: 0 0 0 0.4rem;
   }
 }
-#article-container.post-content ol p,
-#article-container.post-content ul p {
+#article-container ol p,
+#article-container ul p {
   margin: 0 0 0.5rem;
 }
-#article-container.post-content ol ol,
-#article-container.post-content ul ol,
-#article-container.post-content ol ul,
-#article-container.post-content ul ul {
+#article-container ol ol,
+#article-container ul ol,
+#article-container ol ul,
+#article-container ul ul {
   padding-left: 0.6rem;
 }
 @media screen and (max-width: 768px) {
-  #article-container.post-content ol ol,
-  #article-container.post-content ul ol,
-  #article-container.post-content ol ul,
-  #article-container.post-content ul ul {
+  #article-container ol ol,
+  #article-container ul ol,
+  #article-container ol ul,
+  #article-container ul ul {
     padding-left: 0.2rem;
   }
 }
-#article-container.post-content ol li:not(.tab),
-#article-container.post-content ul li:not(.tab) {
+#article-container ol li:not(.tab),
+#article-container ul li:not(.tab) {
   position: relative;
   margin: 0.2rem 0;
 }
-#article-container.post-content ol li:hover:before,
-#article-container.post-content ul li:hover:before {
+#article-container ol li:hover:before,
+#article-container ul li:hover:before {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
-#article-container.post-content ol li:before,
-#article-container.post-content ul li:before {
+#article-container ol li:before,
+#article-container ul li:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -4751,10 +4731,10 @@ blockquote footer cite:before {
   -ms-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-#article-container.post-content ol > li:not(.tab) {
+#article-container ol > li:not(.tab) {
   padding: 0.2em 0.2em 0.2em 1.8em;
 }
-#article-container.post-content ol > li:before {
+#article-container ol > li:before {
   margin-top: 0.65em;
   width: 1.45em;
   height: 1.45em;
@@ -4765,13 +4745,13 @@ blockquote footer cite:before {
   font-size: 0.85em;
   line-height: 1.45em;
 }
-#article-container.post-content ul > li:not(.tab) {
+#article-container ul > li:not(.tab) {
   padding: 0.2em 0.2em 0.2em 1.4em;
 }
-#article-container.post-content ul > li:not(.tab):hover:before {
+#article-container ul > li:not(.tab):hover:before {
   border-color: #ff7242;
 }
-#article-container.post-content ul > li:not(.tab):before {
+#article-container ul > li:not(.tab):before {
   top: 0.78em;
   width: 0.42em;
   height: 0.42em;
